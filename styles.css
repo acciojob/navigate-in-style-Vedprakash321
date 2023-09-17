@@ -1,1 +1,30 @@
 /*  your css code here. If applicable */
+/* Reset default margin and padding for list items */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the navigation bar */
+.nav-bar {
+  background-color: #D3D3D3;
+  padding: 10px;
+}
+
+/* Style the list items */
+.nav-bar ul li {
+  display: inline; /* Display items horizontally */
+  margin-right: 1rem;
+}
+
+/* Style the links */
+.nav-bar ul li a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #000; /* Set link color */
+}
+
+/* Hover effect on links */
+.nav-bar ul li a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
